@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="buttonColor">#506AD4</color>
+    <color name="backgroundColor">#FFFCE6</color>
+    <color name="formBackground">#C2B8AD</color>
+
 </resources>

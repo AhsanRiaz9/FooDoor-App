@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "500942109842",
+    "project_id": "foodoor-app-8b4e6",
+    "storage_bucket": "foodoor-app-8b4e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500942109842:android:efe92316e679118ebc3a4b",
+        "android_client_info": {
+          "package_name": "com.example.foodoorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500942109842-f9uv668bcome8qgjpt9akffi5tf9r9pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANJRymhr5CJGyo3--L3-zBIdR7vAkz4PE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500942109842-f9uv668bcome8qgjpt9akffi5tf9r9pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
