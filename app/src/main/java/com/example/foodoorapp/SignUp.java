@@ -18,6 +18,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.Locale;
+
 public class SignUp extends AppCompatActivity {
 
     Button registeredBtn;
@@ -48,6 +50,7 @@ public class SignUp extends AppCompatActivity {
             public void onClick(View v) {
                 String fullName = fullNameTextView.getText().toString();
                 String email = emailTextView.getText().toString();
+                email.toLowerCase();
                 String password = passwordTextView.getText().toString();
                 String confirmPassword = confirmPasswordTextView.getText().toString();
                 boolean isValid = isValidData(fullName,email,password,confirmPassword);

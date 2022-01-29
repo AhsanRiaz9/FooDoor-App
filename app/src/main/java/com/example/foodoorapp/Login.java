@@ -18,6 +18,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.util.Locale;
+
 public class Login extends AppCompatActivity {
 //    Firebase auth
     private FirebaseAuth auth;
@@ -49,6 +51,15 @@ public class Login extends AppCompatActivity {
                         if(task.isSuccessful())
                         {
                             Toast.makeText(getApplicationContext(),  "Login Successful", Toast.LENGTH_SHORT).show();
+                            email.toLowerCase();
+                            if(email.equals("ahsanriaz@gmail.com")==true)
+                            {
+                                Intent intent = new Intent(getApplicationContext(),AdminDashboard.class);
+                                startActivity(intent);
+                            }
+                            else {
+                            }
+
                         }
                         else{
                             Toast.makeText(getApplicationContext(), "Login Failure", Toast.LENGTH_SHORT).show();
