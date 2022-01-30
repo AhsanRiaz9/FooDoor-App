@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FooDoorApp">
         <activity
+            android:name=".UserHomeScreen"
+            android:exported="false" />
+        <activity
             android:name=".AddFoodItem"
             android:exported="false" />
         <activity

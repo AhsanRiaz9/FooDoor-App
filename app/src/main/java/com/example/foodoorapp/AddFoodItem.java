@@ -44,11 +44,12 @@ public class AddFoodItem extends AppCompatActivity {
                         String key = db.getReference("Food").push().getKey();
                         db.getReference().child("Food").child(key).setValue(food);
                         clearFormData();
+                        Toast.makeText(getApplicationContext(), "Food Item Added Successfully", Toast.LENGTH_SHORT).show();
                     }
-                    else {
+                    else
+                    {
                         Toast.makeText(getApplicationContext(), "Invalid Food Detail", Toast.LENGTH_SHORT).show();
                     }
-
                 }
                 catch (Exception e)
                 {
